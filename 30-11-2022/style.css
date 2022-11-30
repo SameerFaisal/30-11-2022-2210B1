@@ -1,0 +1,26 @@
+label,input{
+    margin-top: 10px;
+}
+#name,#email,#number,#password{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 2px groove greenyellow;
+}
+#name:focus,#email:focus{
+    background-color: crimson;
+    color: darkred;
+    border: 2px solid greenyellow;
+}
+
+/* input{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 2px groove greenyellow;
+} */
+div{
+    height: 200px;
+    width: 200px;
+    border: 2px groove black;
+}
